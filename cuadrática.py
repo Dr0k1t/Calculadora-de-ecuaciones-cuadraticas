@@ -3,8 +3,8 @@ import math
 #Simple implementación para resolver ecuaciones cuadráticas aún si sus resultados son complejos.
 def cuadratica(a, b, c):
     print("La ecuación que quieres resolver es", a, "x^2 +", b, "x +", c, " = 0")
-    det = b ** 2 -4*a*c #Calcula el determiante para simplificar escritura
-    if det >= 0: #Si los resultados son positivos
+    det = b**2 -4*a*c #Calcula el determiante para simplificar escritura
+    if det >= 0: #Si los resultados son reales.
         x1= (math.sqrt(det) - b) / (2*a)
         x2= (math.sqrt(det) + b) / (2*a)
         print("Los resultados son: ", "\nx_1 = ", x1,"\nx_2 = ", x2) 
