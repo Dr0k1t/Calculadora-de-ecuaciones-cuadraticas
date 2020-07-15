@@ -1,4 +1,5 @@
 import math
+#Autor: Elius García
 #Simple implementación para resolver ecuaciones cuadráticas aún si sus resultados son complejos.
 def cuadratica(a, b, c):
     print("La ecuación que quieres resolver es", a, "x^2 +", b, "x +", c, " = 0")
